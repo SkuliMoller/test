@@ -1,4 +1,4 @@
-from flask import Flask, route, run, render_template, static_file, error
+from bottle import route, run, template, static_file, error
 import os
 
 myndir = [
