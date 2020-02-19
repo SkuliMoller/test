@@ -48,9 +48,9 @@ def server_static(filename):
 def company(fyritaeki):
     return template("company", fyritaeki=fyritaeki, data=data)
 
-@route("/main/<lykill>")
+@route("/upplysingar/<lykill>")
 def key(lykill):
-    return template("main", lykill=lykill, data=data)
+    return template("upplysingar", lykill=lykill, data=data)
 
 @error(404)
 def error404(error):
